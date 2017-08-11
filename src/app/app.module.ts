@@ -1,16 +1,13 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { 
-  MdButtonModule, 
-  MdCheckboxModule, 
-  MdIconModule,
-  MdToolbarModule 
-} from '@angular/material';
+import { MaterialModule } from '@angular/material';
 
 import { WelcomeComponent } from './welcome/welcome.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -27,12 +24,11 @@ import { Routing } from './app.routing';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule,
+    FormsModule,
+    HttpModule,
     Routing,
-    MdButtonModule,
-    MdCheckboxModule,
-    MdIconModule,
-    MdToolbarModule
+    MaterialModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
