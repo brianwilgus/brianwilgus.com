@@ -11,6 +11,9 @@ import { MaterialModule } from '@angular/material';
 
 import { WelcomeComponent } from './welcome/welcome.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { SkillsComponent } from './skills/skills.component';
+import { WorkHistoryComponent } from './work-history/work-history.component';
+import { ContactComponent } from './contact/contact.component';
 
 import 'hammerjs';
 
@@ -20,7 +23,10 @@ import { Routing } from './app.routing';
   declarations: [
     AppComponent,
     WelcomeComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SkillsComponent,
+    WorkHistoryComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
