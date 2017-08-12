@@ -1,11 +1,41 @@
-.example-icon {
-    padding: 0 14px;
+.page-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
 }
 
-.example-spacer {
+.sidenav-content {
+    display: flex;
+    height: 100%;
+    align-items: left;
+    justify-content: left;
+}
+
+.fill-remaining-space {
     flex: 1 1 auto;
 }
 
-md-sidenav {
-    width: 320px;
+.header-title {
+    margin-left: 8px;
+}
+
+.button-menu {
+    width: 32px;
+    min-width: 32px;
+    padding: 0px 14px 0px 0px;
+    margin: 0px;
+}
+
+.button-menu-icon {
+    width: 14px;
+    min-width: 14px;
+}
+
+md-sidenav-container {
+    width: 100%;
+}
+
+md-toolbar-row {
+    justify-content: space-between;
+    text-align: left;
 }

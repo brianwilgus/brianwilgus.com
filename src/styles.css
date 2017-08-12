@@ -12,10 +12,6 @@ md-card {
     text-align: left;
 }
 
-md-toolbar-row {
-    justify-content: space-between;
-}
-
 md-tab-group {
     padding: 2em auto;
     text-align: center;
@@ -30,20 +26,11 @@ md-grid-tile {
     background: lightblue;
 }
 
-button.mat-raised-button {
-    background-color: azure;
-}
-
 .done {
     position: fixed;
     bottom: 20px;
     right: 20px;
     color: white;
-}
-
-.skill-card,
-.about-card {
-    width: 500px;
 }
 
 .about-header-image {
@@ -66,13 +53,4 @@ button.mat-raised-button {
     background-size: cover;
     width: 100px;
     height: 100px;
-}
-
-.contact-links {
-    padding: 1em;
-}
-
-.mat-button-wrapper.img {
-    height: 40px;
-    width: 40px;
 }
