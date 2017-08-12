@@ -1,19 +1,28 @@
-<div>
-    <md-toolbar color="primary">
-        <md-toolbar-row>
-            <span>Brian Wilgus</span>
-            <span class="example-spacer"></span>
-            <button md-button [mdMenuTriggerFor]="appMenu"><md-icon>more_vert</md-icon> Menu</button>
-        </md-toolbar-row>
+<div class="page-container">
+    <md-sidenav-container>
+        <md-toolbar color="primary" (click)="sidenav.open()">
+            <button class="button-menu" md-button>
+                <md-icon class="menu-btn">menu</md-icon>
+            </button>
+            <span class="header-title">Brian Wilgus</span>
+            <span class="fill-remaining-space"></span>
+        </md-toolbar>
 
-    </md-toolbar>
+        <md-sidenav #sidenav class="sidenav" (click)="sidenav.close()">
+            <button md-menu-item routerLink="/about"><md-icon>face</md-icon>About Me</button>
+            <button md-menu-item routerLink="/skills"><md-icon>computer</md-icon>Skills</button>
+            <button md-menu-item routerLink="/work-history"><md-icon>business_center</md-icon>Work History</button>
+            <button md-menu-item routerLink="/contact"><md-icon>mail_outline</md-icon>Contact</button>
+        </md-sidenav>
 
-    <md-menu #appMenu="mdMenu">
-        <button md-menu-item routerLink="/about"><md-icon>face</md-icon>About Me</button>
-        <button md-menu-item routerLink="/skills"><md-icon>computer</md-icon>Skills</button>
-        <button md-menu-item routerLink="/work-history"><md-icon>business_center</md-icon>Work History</button>
-        <button md-menu-item routerLink="/contact"><md-icon>mail_outline</md-icon>Contact</button>
-    </md-menu>
 
-    <router-outlet></router-outlet>
+        <md-menu #appMenu="mdMenu">
+            <button md-menu-item routerLink="/about"><md-icon>face</md-icon>About Me</button>
+            <button md-menu-item routerLink="/skills"><md-icon>computer</md-icon>Skills</button>
+            <button md-menu-item routerLink="/work-history"><md-icon>business_center</md-icon>Work History</button>
+            <button md-menu-item routerLink="/contact"><md-icon>mail_outline</md-icon>Contact</button>
+        </md-menu>
+
+        <router-outlet></router-outlet>
+    </md-sidenav-container>
 </div>
