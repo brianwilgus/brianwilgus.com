@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { MdIconRegistry } from '@angular/material';
+import { Http } from '@angular/http';
 
 @Component({
   selector: 'app-root',
@@ -8,4 +8,5 @@ import { MdIconRegistry } from '@angular/material';
 })
 export class AppComponent {
   title = 'app';
+  myData: Array<any>;
 }

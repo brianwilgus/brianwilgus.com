@@ -1,3 +1,78 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+    background: lightgray;
+    margin: 0px;
+}
+
+md-card {
+    max-width: 80%;
+    margin: 2em auto;
+    text-align: left;
+}
+
+md-toolbar-row {
+    justify-content: space-between;
+}
+
+md-tab-group {
+    padding: 2em auto;
+    text-align: center;
+}
+
+.pageContent {
+    padding: 2em;
+    background: lightgray;
+}
+
+md-grid-tile {
+    background: lightblue;
+}
+
+button.mat-raised-button {
+    background-color: azure;
+}
+
+.done {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+}
+
+.skill-card,
+.about-card {
+    width: 500px;
+}
+
+.about-header-image {
+    background-image: url('/assets/img/web.png');
+    background-size: cover;
+}
+
+.keyboard1-header-image {
+    background-image: url('/assets/img/keyboard1_thin.jpeg');
+    background-size: cover;
+}
+
+.keyboard2-header-image {
+    background-image: url('/assets/img/keyboard2.jpeg');
+    background-size: cover;
+}
+
+.my-header-image {
+    background-image: url('/assets/img/sq_web.jpg');
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.contact-links {
+    padding: 1em;
+}
+
+.mat-button-wrapper.img {
+    height: 40px;
+    width: 40px;
+}
