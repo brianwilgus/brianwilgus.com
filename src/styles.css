@@ -54,3 +54,58 @@ md-grid-tile {
     width: 100px;
     height: 100px;
 }
+
+.workLogo {
+    width: 72px;
+    /* height: 80px; */
+    float: right;
+    margin: 0 0 4px 4px;
+    clear: left;
+}
+
+.workCompany {
+    font: bold 18px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 6px;
+}
+
+.workTitle {
+    font: bold 15px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 4px;
+}
+
+.workPeriod {
+    font: 15px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 4px;
+}
+
+.workLocation {
+    font: 15px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 12px;
+}
+
+md-panel-title {
+    font: bold 24px Roboto, "Helvetica Neue", sans-serif;
+    padding: 1em 0em;
+}
+
+md-accordion,
+md-expansion-panel,
+md-expansion-panel-header {
+    background-color: #EBEBEB;
+}
+
+@media only screen and (max-width: 400px) {
+    md-card {
+        max-width: 100%;
+        margin: 0.25em auto;
+        padding: 0em;
+        text-align: left;
+    }
+    .pageContent {
+        padding: 0.25em;
+        background: lightgray;
+    }
+    .mat-card {
+        padding: 0px 16px;
+    }
+}
