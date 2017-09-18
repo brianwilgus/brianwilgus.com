@@ -17,13 +17,24 @@ md-tab-group {
     text-align: center;
 }
 
+md-grid-tile {
+    background: lightblue;
+}
+
+md-panel-title {
+    font: bold 24px Roboto, "Helvetica Neue", sans-serif;
+    padding: 1em 0em;
+}
+
+md-accordion,
+md-expansion-panel,
+md-expansion-panel-header {
+    background-color: rgba(92, 92, 92, 0.17);
+}
+
 .pageContent {
     padding: 2em;
     background: lightgray;
-}
-
-md-grid-tile {
-    background: lightblue;
 }
 
 .done {
@@ -59,7 +70,9 @@ md-grid-tile {
     width: 72px;
     /* height: 80px; */
     float: right;
-    margin: 0 0 4px 4px;
+    margin: 4px 4px 10px 10px;
+    outline: 1px solid rgba(66, 66, 66, 0.13);
+    outline-offset: 2px;
     clear: left;
 }
 
@@ -83,19 +96,17 @@ md-grid-tile {
     margin-bottom: 12px;
 }
 
-.contactLinks {
+.contactLinks .mat-button {
+    text-align: left;
     width: 100%;
+    color: rgba(0, 0, 0, .87);
+    background-color: rgba(216, 216, 216, 0.2);
 }
 
-md-panel-title {
-    font: bold 24px Roboto, "Helvetica Neue", sans-serif;
-    padding: 1em 0em;
-}
-
-md-accordion,
-md-expansion-panel,
-md-expansion-panel-header {
-    background-color: #EBEBEB;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 @media only screen and (max-width: 400px) {
