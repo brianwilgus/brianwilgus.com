@@ -1,0 +1,198 @@
+/**** HIP Admin CSS Document ***********************/
+
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	background-color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height: 16px;
+	color:#1f280e;
+	background-image:url(../../texture.gif);
+	}
+	
+a:link {
+	color:#ffffff;
+	text-decoration:underline;
+	}
+	
+a:visited {
+	color:#ffffff;
+	}
+
+a:hover {
+	color:#9c9a9a;
+	}
+	
+.bttn a:link, .bttn a:visited {
+	color:#1f280e;
+	text-decoration:underline;
+	}
+	
+.bttn a:hover {
+	color:#1f280e;
+	background-color:#F47920;
+	} 
+	
+img {
+	border: 0px;
+	padding:0px 0px 0px 0px;
+	}	
+
+table {
+	margin:0px 0px 0px 0px;
+	border:none;
+	}
+	
+h1 {
+	margin:200px 0px 0px 50px;
+	font-size:36px;
+	color:#1f280e;
+	font-weight:bolder;
+	}
+
+h2 {
+	font-size: 20px;
+	color: #1f280e;
+	font-weight: bold;
+	margin:24px 0px 0px 24px;
+	padding:0px 0px 0px 0px;
+	}
+	
+.logo{
+	padding:12px 4px 0px 24px;
+	width:163px;
+	}
+	
+.pgTitle{
+	float:left;
+	width:350px;
+	margin:24px 0px 0px 24px;
+	padding:0px 0px 0px 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:21px;
+	font-weight:bold;
+	color:#1f280e;
+	text-align:right;
+	}
+	
+.formTbl{
+	margin:12px auto 12px auto;
+	padding:0px 0px 0px 0px;
+	border: 1px solid #ffffff;
+	background-color:#9c9a9a;
+	}
+	
+.formTbl td{
+	padding:2px 2px 2px 2px;
+	}
+	
+.tblHdr{
+	padding:2px 2px 2px 2px;
+	background-color:#333333;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff;
+	}
+	
+.bttnRow{
+	text-align:right;
+	}
+	
+.dataTbl{
+	width:865px;
+	margin:4px auto 18px auto;
+	padding:0px 0px 0px 0px;
+	clear:both;
+	border:1px solid #ffffff;
+	background-color:#9c9a9a;
+	}
+	
+.upLoadTbl{
+	width:550px;
+	margin:9px auto 9px auto;
+	padding:0px 0px 0px 0px;
+	clear:both;
+	border:1px solid #ffffff;
+	background-color:#9c9a9a;
+	}
+	
+.upLoadTbl{
+	padding:0px 2px 0px 2px;
+	}
+	
+.navDiv{
+	width:865px;
+	margin:18px auto 0px auto;
+	clear:left;
+	text-align:right;
+	background-color:#333333;
+	color:#ffffff;
+	}
+	
+.navDivSm{	
+	width:550px;
+	margin:18px auto 0px auto;
+	clear:left;
+	text-align:right;
+	background-color:#333333;
+	color:#ffffff;
+	}
+	
+.navDivSm a:link{
+	padding:0px 0px 0px 0px;
+	display:inline;
+	color:#ffffff;
+	}	
+	
+.underLine{
+	border-bottom:1px solid #1f280e;
+	padding: 2px 0px 2px 0px;
+	}
+	
+.underLineHdr{
+	font-weight:bold;
+	]}
+	
+.grayBand{
+	background-color:#333333;
+	margin:180px 0px 0px 0px;
+	}
+	
+.dataGrayBand{
+	background-color:#333333;
+	margin:0px 0px 0px 0px;
+	}
+	
+.logoTbl{
+	width:100%;
+	}
+	
+.borderLine{
+	border-bottom:1px solid #ffffff;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

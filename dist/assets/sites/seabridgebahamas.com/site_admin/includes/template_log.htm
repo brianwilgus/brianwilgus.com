@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Club of the Isle</title>
+<link href="admin.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="clearFix" id="container">
+  	<div id="nav">
+    <span id="subhead">Contact Administration</span></div>
+	<div id="newContent">
+		<table width="680"  border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td valign="top" colspan="2">
+			  <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                <td height="26" valign="bottom" align="center"><br /><span class="body">Login</span><br /></td>
+                </tr>
+              </table>
+			  <% 
+			  If Request.QueryString("loginerror") = "true" Then 
+			  %>
+			  <br /><div align="center" class="body">Either the user name or the password was incorrect.  Please try again.</div>
+			  <%
+			  End If 
+			  %>
+			  <form action="login_process.asp" method="post" name="loginform" id="loginform">
+					<table width="400" border="0" cellspacing="0" cellpadding="3" align="center">
+					  <tr class="body">
+						
+                  <td align="right">User Name:</td>
+						<td nowrap="nowrap"><input name="txtUserID" type="text" class="txtForm" size="30" /></td>
+					  </tr>
+					  <tr class="body">
+						<td align="right">Password:</td>
+						<td class="text"><input name="txtPassword" type="password" class="txtForm" size="30" /></td>
+					  </tr>
+					  <tr align="center">
+						<td colspan="2" align="center" class="body"><input name="Submit" type="submit" class="style2" value="   Login   " /></td>
+					  </tr>
+					</table><br />
+			  </form>
+			</td>
+          </tr>
+	  </table>
+	</div>
+  </div>
+</body>
+</html>
