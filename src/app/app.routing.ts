@@ -5,11 +5,13 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SkillsComponent } from './skills/skills.component';
 import { WorkHistoryComponent } from './work-history/work-history.component';
 import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 export const Routing: ModuleWithProviders = RouterModule.forRoot([
     { path: 'about', component: WelcomeComponent },
     { path: 'skills', component: SkillsComponent },
     { path: 'work-history', component: WorkHistoryComponent },
+    { path: 'portfolio', component: PortfolioComponent },
     { path: 'contact', component: ContactComponent },
     { path: '', redirectTo: '/about', pathMatch: 'full' },
     { path: '**', component: PageNotFoundComponent }

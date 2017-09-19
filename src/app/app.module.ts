@@ -14,10 +14,15 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { SkillsComponent } from './skills/skills.component';
 import { WorkHistoryComponent } from './work-history/work-history.component';
 import { ContactComponent } from './contact/contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 import 'hammerjs';
 
 import { Routing } from './app.routing';
+
+import { NgBoxModule } from 'ngbox/ngbox.module';
+import { NgBoxService } from 'ngbox/ngbox.service';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,8 @@ import { Routing } from './app.routing';
     PageNotFoundComponent,
     SkillsComponent,
     WorkHistoryComponent,
-    ContactComponent
+    ContactComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,
@@ -34,9 +40,11 @@ import { Routing } from './app.routing';
     HttpModule,
     Routing,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    NgBoxModule,
+    CommonModule
   ],
-  providers: [],
+  providers: [NgBoxService],
   bootstrap: [AppComponent]
 })
 
