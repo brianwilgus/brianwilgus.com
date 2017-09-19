@@ -1,0 +1,291 @@
+AWSTATS DATA FILE 6.5 (build 1.857)
+# If you remove this file, all statistics for date 200706 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2533                
+POS_VISITOR 5999                
+POS_DAY 6775                
+POS_DOMAIN 3122                
+POS_LOGIN 3350                
+POS_ROBOT 3505                
+POS_WORMS 3707                
+POS_EMAILSENDER 3838                
+POS_EMAILRECEIVER 3981                
+POS_SESSION 7151                
+POS_SIDER 7350                
+POS_FILETYPES 4116                
+POS_OS 4294                
+POS_BROWSER 4398                
+POS_SCREENSIZE 4568                
+POS_UNKNOWNREFERER 4642                
+POS_UNKNOWNREFERERBROWSER 4729                
+POS_ORIGIN 4811                
+POS_SEREFERRALS 4946                
+POS_PAGEREFS 5101                
+POS_SEARCHWORDS 5249                
+POS_KEYWORDS 5440                
+POS_MISC 2197                
+POS_ERRORS 5530                
+POS_CLUSTER 3206                
+POS_SIDER_404 5638                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20070702075355 1 0 34332588029
+FirstTime 20070601093402
+LastTime 20070630054504
+LastUpdate 20070703024613 1 0 0 0 0
+TotalVisits 23                  
+TotalUnique 18                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 4 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 5 7 7871
+1 0 0 0 2 4 3005
+2 0 0 0 0 0 0
+3 0 0 0 2 2 1942
+4 3 14 1769 0 0 0
+5 5 8 10543 6 6 6443
+6 0 3 1406 4 4 6987
+7 3 9 6967 4 4 5445
+8 0 3 1406 5 5 7153
+9 10 27 23391 3 3 5237
+10 17 55 47970 1 1 469
+11 10 36 29691 2 2 0
+12 3 14 11373 0 0 0
+13 0 0 0 0 0 0
+14 3 6 4465 0 0 0
+15 0 0 0 2 2 1795
+16 3 9 7324 0 0 0
+17 3 16 11674 4 4 2263
+18 9 20 21413 6 6 3187
+19 2 5 5278 1 1 1689
+20 0 0 0 3 3 1795
+21 2 5 3662 2 2 3484
+22 0 0 0 2 2 3484
+23 0 0 0 2 2 3590
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 73 230 188332
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 2
+googlebot 24 15944 20070628225653 0
+surveybot 4 6756 20070625083204 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+mp3 21 14544 0 0
+css 24 1080 0 0
+asp 50 64615 0 0
+jpg 4 1560 0 0
+js 41 34793 0 0
+htm 2 3860 0 0
+gif 67 53320 0 0
+swf 21 14560 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 35
+winlong 20
+macintosh 3
+winxp 168
+linux 1
+linuxfedora 3
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 84
+firefox1.0.7 3
+firefox1.0 1
+firefox2.0.0.3 5
+msie7.0 89
+firefox1.5.0.12 5
+firefox2.0.0.4 10
+msie 3
+safari 30
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 32 40
+From1 0 3
+From2 5 5
+From3 0 0
+From4 36 182
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+seabridge+bahamas 4
+seabridge+diving 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 3
+seabridge 5
+bahamas 4
+diving 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 2 781
+206 7 978
+404 23 41380
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 2
+/index.html 1 -
+/robots.txt 22 http://www.whois.sc/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+85.189.163.177 15 49 31622 20070614074447
+24.244.159.12 11 37 26357 20070615142854
+24.244.159.50 9 23 22819 20070612184531
+70.178.11.76 5 19 16651 20070602212436
+69.15.107.115 5 19 17390 20070627104801
+84.252.192.78 4 15 11373 20070615103721
+208.17.184.61 3 3 3448 20070618094556
+67.166.219.84 3 14 11373 20070627120116
+65.12.165.221 3 14 11373 20070602113122
+38.100.41.105 3 4 3464 20070607104521
+71.231.2.182 1 1 1713 20070606141933
+74.208.71.159 1 1 1713 20070612051510
+81.6.251.221 2 5 5278 20070604104027
+195.214.233.225 1 10 7832 20070620105707
+81.168.41.68 2 5 5278 20070630054504
+74.52.245.146 1 1 1708 20070604171908
+72.145.209.187 2 5 5278 20070613193602
+217.41.48.121 2 5 3662 20070625101720
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20070601 3 14 12989 1
+20070602 5 19 15035 2
+20070604 3 6 6986 2
+20070605 5 22 16651 1
+20070606 1 1 1713 1
+20070607 3 4 3464 1
+20070612 10 21 23126 2
+20070613 13 36 30160 3
+20070614 8 31 15100 2
+20070615 6 20 14125 2
+20070618 3 5 4087 1
+20070620 1 11 8222 1
+20070625 2 5 3662 1
+20070627 8 30 27734 2
+20070630 2 5 5278 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 1
+30s-2mn 6
+0s-30s 8
+2mn-5mn 3
+15mn-30mn 3
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 4
+/index.asp 38 63483 22 9
+/brasilcomplete.mp3 21 14544 0 11
+/register.asp 12 1132 1 3
+/thank_you.htm 2 3860 0 0
+END_SIDER

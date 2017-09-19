@@ -1,0 +1,548 @@
+AWSTATS DATA FILE 6.5 (build 1.857)
+# If you remove this file, all statistics for date 200711 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2535                
+POS_VISITOR 8546                
+POS_DAY 13869               
+POS_DOMAIN 3285                
+POS_LOGIN 3517                
+POS_ROBOT 3740                
+POS_WORMS 3974                
+POS_EMAILSENDER 4105                
+POS_EMAILRECEIVER 4248                
+POS_SESSION 14638               
+POS_SIDER 14850               
+POS_FILETYPES 4383                
+POS_OS 4685                
+POS_BROWSER 4835                
+POS_SCREENSIZE 5173                
+POS_UNKNOWNREFERER 5247                
+POS_UNKNOWNREFERERBROWSER 5556                
+POS_ORIGIN 5860                
+POS_SEREFERRALS 6004                
+POS_PAGEREFS 6171                
+POS_SEARCHWORDS 7048                
+POS_KEYWORDS 7342                
+POS_MISC 2197                
+POS_ERRORS 7492                
+POS_CLUSTER 3373                
+POS_SIDER_404 7659                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20071201035436 1 0 32564777508
+FirstTime 20071101133808
+LastTime 20071130173348
+LastUpdate 20071203023733 1 0 0 0 0
+TotalVisits 186                 
+TotalUnique 107                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 150                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 111 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 11 72 18982 3 8 9354
+1 9 21 23526 13 15 24110
+2 6 10 12359 23 28 29806
+3 0 0 0 7 8 13348
+4 0 0 0 6 6 7113
+5 8 41 32366 11 13 12519
+6 15 75 57535 6 12 5011
+7 27 138 33141 6 8 7312
+8 57 337 233122 8 22 25313
+9 196 1040 977419 33 62 43130
+10 207 1056 801981 49 89 71800
+11 64 338 176394 6 17 4781
+12 90 450 309845 31 41 31137
+13 121 617 400292 25 39 24137
+14 60 266 366926 21 26 20096
+15 92 421 331817 15 35 32991
+16 255 1699 716093 34 58 48810
+17 224 1044 912631 34 53 33528
+18 104 615 347364 3 8 9283
+19 61 313 97748 2 14 442
+20 6 29 11575 7 7 9035
+21 14 82 17554 2 9 7691
+22 3 13 12595 6 6 5385
+23 50 281 95576 8 14 6971
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 1680 8958 5986841
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 2
+fcphost 27 233 950326 20071129145456
+fullcp 3 3 2175 20071129143540
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+googlebot 68 64370 20071129140351 0
+slurp 29 25878 20071129124316 0
+surveybot 1 1690 20071105133456 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 455 161939 0 0
+mp3 18 6464 0 0
+asp 261 245591 0 0
+png 201 115811 0 0
+pdf 41 10882 0 0
+htm 1230 896657 0 0
+pl 30 834710 0 0
+swf 705 469131 0 0
+php 89 21182 0 0
+html 9 8393 0 0
+jpg 2623 1566735 0 0
+js 999 624781 0 0
+tab 2 823 0 0
+gif 2295 1023742 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 10
+macosx 3229
+winxp 5274
+macintosh 31
+winlong 314
+win2003 1
+winnt 1
+win2000 33
+Unknown 64
+linux 2
+linuxfedora 9
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 20
+msie6.0 2467
+firefox1.5.0.8 82
+firefox2.0.0.8 428
+opera 25
+msie5.17 29
+msie3.0 1
+msie5.14 2
+firefox2.0.0.10 93
+firefox1.0.4 1
+netscape4.79 3
+firefox1.0.7 9
+konqueror 1
+firefox1.0 2
+firefox2.0.0.9 1637
+msie7.0 2932
+firefox2.0 23
+firefox2.0.0.4 83
+Unknown 64
+safari 1062
+firefox1.5.0.7 14
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 5
+- 20071121182603
+CFNetwork/129.21 20071112102912
+Pingdom_GIGRIB_(http://www.pingdom.com) 20071125223518
+panscient.com 20071122014407
+BlackBerry8700/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/179 20071121182607
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+- 20071121182603
+CFNetwork/129.21 20071112102912
+Pingdom_GIGRIB_(http://www.pingdom.com) 20071125223518
+panscient.com 20071122014407
+BlackBerry8700/4.1.0_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/179 20071121182607
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 280 425
+From1 0 6
+From2 25 25
+From3 30 30
+From4 1345 8472
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 21 21
+yahoo 4 4
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 14
+http://r13579.res.securedc.com/psoft/servlet/psoft.hsphere.CP/fcphost/1610162_0/psoft.hsphere.CP 7 7
+http://fullcp.com/fc_portal.htm 5 5
+http://www.fullcp.com/fc_portal.htm 5 5
+http://www.pingdom.com/tools/fpt/ 2 2
+http://www.fullcp.com 2 2
+http://digmag.rpghou.com/ActiveMagazine/swf/Reader.swf 1 1
+http://mail.atl.cbeyond.com/wm/mail/read.html 1 1
+http://www.fullcp.com/fcp%5Fwebworks/fullcp%5Ftemp/ 1 1
+http://by104w.bay104.mail.live.com/mail/ApplicationMain_12.1.0068.1031.aspx 1 1
+http://fullcp.com/fcp%5Fwebworks/fullcp%5Ftemp/FCP599.swf 1 1
+http://whois.domaintools.com/seabridgebahamas.com 1 1
+http://us.mg1.mail.yahoo.com/dc/launch 1 1
+http://us.f363.mail.yahoo.com/ym/ShowLetter 1 1
+http://192.168.1.131/index.php 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 5
+seabridge+bahamas 20
+seabridgebahamas 2
+seabridge+nassau 1
+seabridge+new+providence+island+the+bahamas 1
+seabridge+on+new+providence+island 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 9
+seabridge 23
+bahamas 21
+island 2
+new 2
+seabridgebahamas 2
+providence 2
+the 1
+on 1
+nassau 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 3 1131
+401 13 24388
+302 47 17389
+206 173 105025
+500 149 47716
+301 8 3128
+404 107 192388
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 17
+/includes/expressinstall.swf 2 -
+/index.html 1 -
+/robots.txt 45 -
+/team.html 1 -
+/flash/townhomes.htm 1 -
+/flash/concierge.htm 1 -
+/images_email/logo_seabridge.gif 10 -
+/cp/scripts/perl/counter/readme 1 -
+/flash/condos.htm 1 -
+/includes/images/ 3 -
+/expressinstall.swf 2 -
+/images/eho.gif 6 http://www.seabridgebahamas.com/register_new.asp
+/images/seabridge_logo.gif 6 http://www.seabridgebahamas.com/register_new.asp
+/images_email/img_foot.jpg 10 -
+/applewebkit/ 1 -
+/images/hg_christie_logo.gif 6 http://www.seabridgebahamas.com/register_new.asp
+/images_email/bkgrd.gif 10 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 150
+69.15.107.115 665 3728 3137917 20071129145456
+24.99.228.231 220 1196 293974 20071123193810
+72.152.85.5 58 357 108897 20071121095058
+24.231.33.41 51 302 81483 20071123002255
+24.244.154.202 33 174 73281 20071125190441
+65.75.64.107 29 145 70391 20071115150751
+24.244.136.151 27 138 106481 20071120184639
+24.244.159.12 27 134 78211 20071121112536
+72.16.216.170 24 123 32726 20071113165451
+65.75.72.209 23 138 84237 20071121112241
+38.100.41.102 3 4 3466 20071104105404
+76.166.149.184 1 1 1007 20071111124237
+24.244.161.245 5 31 23541 20071114160425
+205.188.116.5 0 1 36 
+205.188.116.204 1 1 1385 20071122170010
+208.80.193.3 2 2 2831 20071128155806
+195.93.21.35 0 1 769 
+24.244.166.11 3 15 11257 20071105124736
+97.89.190.178 21 107 90291 20071113064800
+195.93.21.33 0 1 430 
+216.9.250.37 1 3 2812 20071121182606
+85.21.125.100 2 2 1123 20071125155731
+64.238.119.242 3 20 13545 20071113160340
+205.188.116.79 0 1 206 
+216.9.250.111 1 3 4146 20071120110030
+24.244.191.136 8 36 34791 20071130173348
+66.32.216.187 4 19 14093 20071114231306
+86.149.254.38 2 29 18701 20071109085146
+205.188.117.130 1 1 1460 20071122165954
+24.231.50.159 18 83 63357 20071121130037
+76.98.248.153 1 1 1134 20071114221916
+32.131.170.50 4 20 21411 20071129081239
+205.188.117.19 1 1 1276 20071122170039
+205.188.116.66 0 1 358 
+195.93.21.7 0 1 206 
+66.180.82.90 1 1 487 20071111163744
+205.188.116.143 0 1 1686 
+70.90.59.2 4 10 6969 20071104131618
+24.244.150.36 22 128 73547 20071128144012
+195.93.21.68 0 1 1310 
+216.9.250.119 5 7 7310 20071121182605
+65.198.210.138 6 35 29450 20071127165947
+212.240.29.146 7 34 27622 20071109065247
+74.8.7.16 1 9 8184 20071127142537
+65.223.172.146 9 45 39485 20071127185523
+66.180.82.83 1 1 1878 20071111163656
+205.188.116.130 0 1 756 
+205.188.117.11 0 1 203 
+205.188.117.10 0 1 1131 
+205.188.117.204 1 1 657 20071122170119
+71.5.167.2 7 45 36770 20071126101101
+24.98.182.25 15 75 59925 20071109081213
+205.188.117.134 0 1 430 
+205.188.117.129 0 1 0 
+205.188.116.131 0 1 644 
+68.155.191.194 4 24 20662 20071113195048
+24.98.96.146 20 82 63265 20071111165031
+205.188.116.71 0 1 1568 
+24.244.151.186 2 12 11051 20071129151048
+216.9.250.113 1 3 1025 20071120110057
+64.12.117.201 0 1 1009 
+24.244.174.160 16 88 79411 20071129174629
+24.231.53.168 1 11 8184 20071121101340
+38.99.203.110 15 31 35885 20071122014404
+64.12.116.79 0 1 206 
+216.9.250.36 2 3 2654 20071121182607
+12.185.242.2 1 10 7629 20071127152945
+24.61.93.152 3 14 11257 20071101180110
+151.191.175.232 2 5 3663 20071105100525
+66.180.82.88 2 2 1549 20071111163457
+167.121.8.21 15 67 41428 20071113152344
+162.111.235.16 2 5 5327 20071107093644
+70.104.97.20 1 10 8180 20071124101351
+216.9.250.120 1 3 2414 20071121182603
+24.244.190.68 9 44 38559 20071123125840
+151.191.175.233 4 15 12947 20071105103443
+24.231.48.151 7 48 9237 20071120164709
+64.238.116.233 22 116 106655 20071130155744
+205.188.117.7 1 2 843 20071122170049
+205.188.116.197 0 2 2239 
+205.188.117.15 0 1 1310 
+64.12.116.205 0 1 448 
+205.188.117.71 0 2 1221 
+205.188.117.202 0 1 374 
+201.9.149.106 1 1 168 20071122191018
+216.60.34.90 18 94 68053 20071129175143
+68.212.168.104 4 41 16684 20071124081719
+208.196.247.156 6 32 22746 20071123171002
+218.57.11.112 1 1 166 20071107174121
+24.244.187.27 10 58 40044 20071129100704
+195.93.21.136 1 1 190 20071111164655
+24.244.159.50 14 68 54990 20071109162403
+64.12.117.16 0 1 1591 
+212.98.44.6 5 31 21966 20071110090914
+74.246.64.99 2 14 13335 20071127113657
+216.137.6.18 11 59 45148 20071116200134
+64.12.117.134 0 1 430 
+205.188.116.69 0 1 1776 
+74.52.245.146 1 1 213 20071113124342
+66.180.82.84 2 2 502 20071111163658
+66.180.82.87 1 1 440 20071111163730
+205.188.116.133 0 1 605 
+205.188.116.207 1 1 1463 20071122170112
+69.15.214.73 5 22 19439 20071130151349
+205.188.117.79 0 1 1048 
+205.188.117.201 0 2 1737 
+207.138.47.154 1 11 10001 20071120223702
+63.243.109.126 8 41 28535 20071112140024
+24.244.150.239 12 77 57970 20071128140942
+24.98.183.231 5 23 12528 20071109004712
+64.12.116.131 0 1 644 
+69.36.158.37 9 9 5126 20071113150734
+24.244.166.208 3 19 15514 20071128142253
+206.48.0.60 10 55 46509 20071130131422
+24.137.221.91 13 76 60466 20071111164012
+216.9.250.114 3 5 2648 20071120110104
+66.180.82.82 1 1 190 20071111163432
+66.249.16.211 1 1 194 20071112113224
+24.244.187.100 10 54 46091 20071127154702
+205.188.117.72 1 2 2247 20071122170103
+205.188.116.14 0 1 1863 
+66.180.82.85 1 1 1558 20071111164012
+24.99.80.233 21 99 64043 20071118142428
+209.62.82.14 2 2 1654 20071125223518
+66.180.82.81 4 4 5135 20071111163949
+205.188.116.198 0 1 315 
+205.188.116.135 0 1 1574 
+64.12.117.130 1 1 197 20071118105519
+195.93.21.36 0 1 1009 
+205.188.117.8 1 2 1737 20071122170058
+65.32.143.156 1 10 8172 20071129211511
+205.188.117.16 0 2 2360 
+195.93.21.4 0 1 644 
+205.188.116.10 0 1 1510 
+200.127.209.105 1 1 0 20071125160017
+24.244.157.134 9 43 36870 20071128134419
+205.188.116.12 1 1 915 20071122170047
+74.228.195.224 3 13 5591 20071101170232
+205.188.116.78 1 1 724 20071122170140
+205.188.116.140 0 1 1204 
+195.93.21.2 0 1 1591 
+195.93.21.10 0 1 301 
+216.9.250.110 0 2 2391 
+24.99.97.157 2 17 8045 20071112104347
+205.188.116.67 0 2 1270 
+85.12.45.22 1 1 213 20071109094407
+64.12.117.15 0 1 1310 
+64.150.222.146 12 60 46026 20071112093222
+24.231.34.32 10 52 26419 20071109122104
+205.188.117.70 0 1 929 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20071101 65 385 435027 4
+20071102 24 76 83493 1
+20071104 7 14 10435 3
+20071105 37 120 114341 7
+20071106 5 19 14920 1
+20071107 13 38 35104 3
+20071108 123 570 398754 3
+20071109 359 1898 730788 16
+20071110 5 31 21966 1
+20071111 66 267 159681 13
+20071112 128 594 404610 12
+20071113 149 1096 268476 14
+20071114 77 447 787795 7
+20071115 56 306 265464 5
+20071116 33 175 129315 5
+20071117 1 9 6600 1
+20071118 31 146 101419 3
+20071119 10 52 28098 4
+20071120 74 382 242640 10
+20071121 79 496 301114 12
+20071122 71 358 164817 14
+20071123 23 135 78364 5
+20071124 5 51 24864 2
+20071125 37 178 75864 5
+20071126 17 72 57240 3
+20071127 49 303 262487 12
+20071128 46 253 174069 8
+20071129 51 296 439249 8
+20071130 39 191 169847 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 11
+5mn-15mn 21
+15mn-30mn 11
+2mn-5mn 23
+0s-30s 80
+30s-2mn 28
+30mn-1h 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 37
+/index.htm 224 126445 126 50
+/residences.htm 129 58383 4 9
+/townhomes.htm 103 82737 1 4
+/register.asp 102 67718 8 23
+/siteplan.htm 102 70064 4 4
+/developer.htm 92 69396 4 16
+/flash/renderings/parsedirectory.php 89 21182 1 11
+/areamap.htm 88 48498 5 11
+/gallery.htm 88 110983 3 4
+/services.htm 81 32887 3 4
+/site_admin/contacts/data_export/complete.tab 2 823 0 0
+/site_admin/contacts/contact_export.asp 7 13244 0 0
+/finishes_th.htm 40 27305 0 0
+/thank_you.htm 12 22293 0 2
+/floorplan_th4.htm 44 42554 1 2
+/pdf/floorplan_4br.pdf 5 0 0 1
+/site_admin/login/login.asp 16 2932 1 1
+/privacy.htm 1 384 0 0
+/concierge.htm 29 24829 0 3
+/pdf/floorplan_3br.pdf 7 2970 0 0
+/register_new.asp 6 5474 1 0
+/interior.htm 30 24474 1 1
+/index.asp 27 45496 15 3
+/condos.htm 50 49379 1 2
+/site_admin/contacts/add_contact.asp 10 11320 0 0
+/terms.htm 4 1578 0 0
+/pdf/siteplan.pdf 21 5332 0 4
+/site_admin/ 9 8393 3 0
+/site_admin/contacts/reports.asp 7 2163 0 1
+/penthouses.htm 43 45968 1 7
+/disclaimer.htm 3 147 0 0
+/site_admin/contacts/contact_list.asp 63 60091 0 3
+/site_admin/contacts/edit_contact.asp 23 37153 0 1
+/awstats/cgi-bin/awstats.pl 30 834710 3 2
+/pdf/features.pdf 8 2580 0 2
+/brasilcomplete.mp3 18 6464 0 10
+/floorplan_th3.htm 67 58353 0 5
+END_SIDER

@@ -1,0 +1,622 @@
+/* CSS Document: Seabridge Bahamas */
+
+/* Update 11/13/2007: David Ware */
+
+
+/* :: Constants ::::::::::::::::::::::::::::::::::::::::::::::::: */
+body {
+	background: #ddd7aa;
+	margin: 0px auto;
+	padding: 0px;
+	text-align: center;
+	font: 11px/14px Arial, Helvetica, sans-serif;
+	color: #766835;
+}
+h1 {
+	font-size: 17px;
+	margin: 18px 0px 0px;
+	padding: 0px;
+}
+h2 {
+	font-size: 14px;
+	text-align: left;
+	margin: 0px 0px 5px;
+	padding: 0px;
+	text-transform: uppercase;
+}
+h4 {
+	font-size: 15px;
+	margin: 4px 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+.clear {
+	clear: both;
+}
+a:link, a:visited {
+	color: #3f371b;
+	text-decoration: underline;
+}
+a:hover {
+	color: #DDD7AA;
+	text-decoration: underline;
+}
+img {
+	border-width: 0px;
+	border-style: none;
+}
+.wrapper {
+	width: 686px;
+	border: 1px solid #483f27;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	background: #FFFFFF;
+}
+.header {
+	background: #FFFFFF;
+	padding-top: 15px;
+	padding-bottom: 23px;
+}
+.whiteArea {
+	background: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.whiteArea table {
+	width: 656px;
+	border-collapse: collapse;
+	margin-left: 15px;
+}
+.whiteArea tr {}
+.whiteArea td {
+	width: 33.33%;
+}
+.whiteArea a:link, .whiteArea a:visited {
+	color: #3f371b;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.whiteArea a:hover {
+	color: #DDD7AA;
+}
+.innerWrapper {
+	background: #FFFFFF;
+	text-align: left;
+	overflow: auto;
+	height: 360px;
+}
+.innerWrapper .col1 {
+	float: left;
+	width: 275px;
+	padding-left: 26px;
+	display: inline;
+}
+.innerWrapper .col1 img {
+	border: 1px solid #766835;
+}
+.innerWrapper .col2 {
+	padding-left: 30px;
+	width: 330px;
+	float: left;
+	text-align: justify;
+}
+.txtArea {
+	background: #FFFFFF;
+	text-align: justify;
+}
+.subhead {
+	border-top: 1px solid #483f27;
+	border-bottom: 1px solid #483f27;
+	height: 42px;
+}
+.subhead span {
+	display: none;
+}
+.footer {
+	font-size: 9px;
+	line-height: 11px;
+	color: #75704c;
+	width: 673px;
+	padding-bottom: 10px;
+	text-align: left;
+	margin-top: 8px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	border-width: 0px;
+	border-style: none;
+}
+.footer table {
+	text-align: left;
+	width: 657px;
+	border-collapse: collapse;
+	display: inline;
+	border-width: 0px;
+	border-style: none;
+	margin: 0px;
+	padding: 0px;
+	}
+.footer table tr {
+	margin: 0px;
+	padding: 0px;
+}
+.footer table td {
+	vertical-align: top;
+	width: 219px;
+	margin: 0px;
+	padding: 0px;
+}
+.footer table ul {
+	margin: 0px;
+	padding: 0px;
+}
+.footer table li {
+	display: inline;
+	margin: 0px 7px;
+	padding: 0px;
+}
+.footer table a:link, .footer table a:visited {
+	color: #75704c;
+	text-decoration: underline;
+}
+.footer table a:hover {
+	color: #3f371b;
+	text-decoration: underline;
+}
+.footR {
+	padding-top: 2px;
+	text-align: left;
+}
+
+
+/* :: Main Navigation ::::::::::::::::::::::::::::::::::::::::::: */
+.nav {
+	border-top: 1px solid #483f27;
+	border-bottom: 1px solid #483f27;
+	background: #766835;
+	color: #FFFFFF;
+}
+.nav ul {
+	margin: 0px;
+	padding: 5px 0px;
+	list-style: none;
+}
+.nav li {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+}
+.nav a:link, .nav a:visited {
+	color: #FFFFFF;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+.nav a:hover {
+	color: #766835;
+	text-decoration: none;
+	font-weight: bold;
+	background: #DDD7AA;
+}
+
+/* :: Main Nav: Set the page to the "on" state :::::::::::::::::: */
+#pg_res #nav_res, 
+#pg_th #nav_res, 
+#pg_thFin #nav_res, 
+#pg_thFlr3 #nav_res, 
+#pg_thFlr4 #nav_res, 
+#pg_condo #nav_res, 
+#pg_pent #nav_res, 
+#pg_pln #nav_pln, 
+#pg_serv #nav_serv, 
+#pg_con #nav_serv, 
+#pg_int #nav_serv, 
+#pg_gal #nav_gal, 
+#pg_map #nav_map, 
+#pg_dev #nav_dev, 
+#pg_news #nav_news, 
+#pg_reg #nav_reg {
+	color: #766835;
+	text-decoration: none;
+	font-weight: bold;
+	background: #DDD7AA;
+}
+
+/* :: SubNav ::::::::::::::::::::::::::::::::::::::::::::::::::: */
+.subNav {
+	color: #766835;
+	text-align: center;
+	margin-top: 7px;
+	margin-bottom: 32px;
+}
+.subNav #town, .subNav #condo, .subNav #pent {
+	background: #766835;
+	color: #FFFFFF;
+	width: 100px;
+	border: 1px solid #766835;
+	float: left;
+}
+.subNav a:link, .subNav a:visited {
+	color: #FFFFFF;
+	display: block;
+	width: 100px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.subNav a:hover {
+	color: #766835;
+	text-decoration: none;
+	font-weight: bold;
+	background: #DDD7AA;
+	display: block;
+	width: 100px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* :: SubNav: Set the secondary page to the "on" state :::::::::: */
+#pg_th #nav_th, 
+#pg_thFin #nav_th, 
+#pg_thFlr3 #nav_th, 
+#pg_thFlr4 #nav_th, 
+#pg_condo #nav_condo, 
+#pg_pent #nav_pent, 
+#pg_con #nav_con, 
+#pg_int #nav_int {
+	color: #766835;
+	text-decoration: none;
+	font-weight: bold;
+	background: #DDD7AA;
+	display: block;
+	width: 100px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+#pg_th .dDown, #pg_condo .dDown, #pg_pent .dDown, 
+#pg_thFlr3 .dDown, #pg_thFlr4 .dDown {
+	color: #766835;
+	text-decoration: underline;
+	font-weight: bold;
+	background: #FFFFFF;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/* :: Set the Dropdown so its not visible ::::::::::::::::::::::: */
+#dd1, #dd2, #dd3 {
+	display: none;
+}
+/* :: Set the Dropdown to visible on the appropriate page ::::::: */
+#pg_th #dd1, 
+#pg_thFin #dd1, 
+#pg_condo #dd2, 
+#pg_pent #dd3, 
+#pg_thFlr3 #dd1, 
+#pg_thFlr4 #dd1 {
+	display: block;
+}
+.subNav .dDown a:link, .subNav .dDown a:visited {
+	color: #3f371b;
+	text-decoration: underline;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: #FFFFFF;
+}
+.subNav .dDown a:hover {
+	color: #DDD7AA;
+	text-decoration: underline;
+	background: #FFFFFF;
+}
+
+/* :: Nav on the Floorplan pages :::::::::::::::::::::::::::::::: */
+.navFloor {
+	background: #FFFFFF;
+	color: #766835;
+}
+.navFloor ul {
+	margin: 0px;
+	padding: 5px 0px;
+	list-style: none;
+}
+.navFloor li {
+	display: inline;
+	margin: 0px 5px;
+	padding: 0px;
+}
+.navFloor a:link, .navFloor a:visited {
+	color: #766835;
+	text-decoration: underline;
+}
+.navFloor a:hover {
+	color: #b6af79;
+	text-decoration: underline;
+}
+
+/* :: navFloor: Set the floorplan page to the "on" state :::::::: */
+#pg_thFlr3 #nav_3br, #pg_thFlr4 #nav_4br {
+	color: #b6af79;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+/* :: Home Page ::::::::::::::::::::::::::::::::::::::::::::::::: */
+#flash {
+	background: #FFFFFF;
+	text-align: left;
+}
+.content {
+	background: url("../images/mapBkgrnd.jpg") no-repeat;
+	width: 526px;
+	border-top: 1px solid #483f27;
+	border-bottom: 1px solid #483f27;
+	padding: 15px 80px;
+}
+
+/* :: Residences Page ::::::::::::::::::::::::::::::::::::::::::: */
+#pg_res .txtArea {
+	padding: 15px 120px;
+}
+#pg_res .subhead {
+	background: url("../images/txt_residences.jpg") no-repeat;
+}
+
+/* :: Townhome Page, Condominium Page & Penthouse Page :::::::::: */
+#pg_th .subhead {
+	background: url("../images/txt_townhome.jpg") no-repeat;
+}
+#pg_condo .subhead {
+	background: url("../images/txt_condos.jpg") no-repeat;
+}
+#pg_pent .subhead {
+	background: url("../images/txt_penthouse.jpg") no-repeat;
+}
+
+/* :: Finishes Page(s) :::::::::::::::::::::::::::::::::::::::::: */
+.backLink {
+	padding-top: 7px;
+	padding-bottom: 40px;
+}
+#pg_thFin .innerWrapper .col3 {
+	padding-left: 30px;
+	width: 340px;
+	float: left;
+	overflow: auto;
+	height: 200px;
+}
+#pg_thFin .innerWrapper .col3 ul {
+	margin: 0px 0px 12px 15px;
+	padding: 0px;
+}
+#pg_thFin .innerWrapper .col3 li {
+	margin-bottom: 4px;
+}
+#pg_thFin .subhead {
+	background: url("../images/txt_finishes.jpg") no-repeat;
+}
+
+/* :: Floorplan Page(s) ::::::::::::::::::::::::::::::::::::::::: */
+.pop {
+	text-align: center;
+	background: #FFFFFF;
+	width: 344px;
+	padding-bottom: 10px;
+	border-right: 1px solid #766835;
+	border-bottom: 1px solid #766835;
+	border-left: 1px solid #766835;
+	margin: 20px auto;
+}
+#pg_thFlr3 h2, #pg_thFlr4 h2 {
+	font-size: 12px;
+	padding-left: 35px;
+}
+#pg_thFlr3 .subhead, #pg_thFlr4 .subhead {
+	background: url("../images/txt_floorplan.jpg") no-repeat;
+}
+#pg_thFlr3 .innerWrapper .col2a, #pg_thFlr4 .innerWrapper .col2a, 
+#pg_thFlr3 .innerWrapper .col2b, #pg_thFlr4 .innerWrapper .col2b, 
+#pg_thFlr3 .innerWrapper .col2c, #pg_thFlr4 .innerWrapper .col2c {
+	float: left;
+	text-align: center;
+	width: 100px;
+}
+.pdfDownload {
+	float: left;
+	width: 120px;
+	margin-top: 9px;
+}
+.clickThumb {
+	float: right;
+	width: 90px;
+	padding-top: 5px;
+	text-align: left;
+	background: url(../images/magnifyingGlass.gif) no-repeat 0px 9px;
+	padding-left: 25px;
+	margin-right: 10px;
+}
+.featureLink {
+	padding-top: 7px;
+	padding-bottom: 40px;
+}
+.featureLink a:link, .featureLink a:visited {
+	font-size: 14px;
+	color: #3f371b;
+	text-decoration: underline;
+
+}
+.featureLink a:hover {
+	color: #DDD7AA;
+}
+#txtArea0 {
+	display: block;
+}
+#txtArea1, #txtArea2, #txtArea3 {
+	display: none;
+}
+
+/* :: Site Plan Page :::::::::::::::::::::::::::::::::::::::::::: */
+#pg_pln .siteImg {
+	padding-top: 5px;
+	text-align: center;
+	float: left;
+	width: 500px;
+}
+#pg_pln .txtArea {
+	padding: 2px 30px 10px;
+}
+#pg_pln .link {
+	text-align: center;
+	margin: 0px 0px 10px;
+	padding: 280px 0px 0px 10px;
+	float: left;
+	width: 150px;
+}
+#pg_pln .subhead {
+	background: url("../images/txt_siteplan.jpg") no-repeat;
+}
+
+/* :: Services Page ::::::::::::::::::::::::::::::::::::::::::::: */
+#pg_serv #flash {
+	padding-left: 118px;
+}
+#pg_serv .txtArea {
+	padding: 15px 120px;
+}
+#pg_serv .subhead {
+	background: url("../images/txt_serv.jpg") no-repeat;
+}
+
+/* :: Concierge Page :::::::::::::::::::::::::::::::::::::::::::: */
+#pg_con .innerWrapper .col2 ul {
+	margin: 0px 0px 0px 15px;
+	padding: 10px 0px;
+}
+#pg_con .innerWrapper .col2 li {
+	padding: 0px;
+	margin: 0px;
+}
+#pg_con .subhead {
+	background: url("../images/txt_concierge.jpg") no-repeat;
+}
+
+/* :: Interior Decorating Page :::::::::::::::::::::::::::::::::: */
+#pg_int .subhead {
+	background: url("../images/txt_interior.jpg") no-repeat;
+} 
+
+/* :: Gallery Page :::::::::::::::::::::::::::::::::::::::::::::: */
+#pg_gal #flash {
+	padding-left: 21px;
+}
+#pg_gal .subhead {
+	background: url("../images/txt_imageGallery.jpg") no-repeat;
+}
+
+/* :: Area Map Page ::::::::::::::::::::::::::::::::::::::::::::: */
+#pg_map .txtArea {
+	padding: 2px 30px 30px;
+}
+#pg_map .subhead {
+	background: url("../images/txt_areaMap.jpg") no-repeat;
+}
+
+/* :: Developer Page :::::::::::::::::::::::::::::::::::::::::::: */
+.sourceLink {
+	background: #D5D2B7;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px solid #483f27;
+	border-bottom: 1px solid #483f27;
+}
+#pg_dev .oceanScene {
+	background: url("../images/img_ocean.jpg") no-repeat;
+	height: 161px;
+}
+#pg_dev .txtArea {
+	padding: 15px 120px;
+}
+#pg_dev .subhead {
+	background: url("../images/txt_developer.jpg") no-repeat;
+}
+
+/* :: News Page ::::::::::::::::::::::::::::::::::::::::::::::::: */
+#pg_news .txtArea {
+	padding-top: 18px;
+	padding-left: 165px;
+	padding-right: 165px;
+}
+#pg_news h3 {
+	font-size: 11px;
+	line-height: 16px;
+	margin: 10px 0px 0px;
+	padding: 0px;
+}
+#pg_news p {
+	margin: 0px;
+	padding: 0px;
+}
+#pg_news .subhead {
+	background: url("../images/txt_news.jpg") no-repeat;
+}
+
+/* :: Registration Page ::::::::::::::::::::::::::::::::::::::::: */
+#pg_reg .formContent {
+	background: #FFFFFF;
+	text-align: center;
+	margin: 0px;
+	width: 600px;
+	padding: 30px 43px 15px;
+}
+#pg_reg form {
+	margin: 0px;
+	padding: 0px;
+}
+#pg_reg form table.formTable {
+	width: 600px;
+	background: #DDD7AA;
+	border-collapse:collapse;
+}
+#pg_reg form table.formTable tr {}
+#pg_reg form table.formTable th {
+	font-weight: normal;
+	text-align: right;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+#pg_reg form table.formTable td {
+	text-align: left;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+/*  #pg_reg label {
+	padding-right: 10px;
+	width: 75px;
+	text-align: right;
+}
+#pg_reg label:after {
+	content: ": ";
+}  */
+#pg_reg input {
+	text-align: left;
+	font-size: 10px;
+}
+/* :: Set the visibility of the state/province :::::::::::::::::: */
+#otherField {
+	display: block;
+}
+
+#pg_reg .required {
+	color: #CC0000;
+}
+.disclaimer {
+	padding-bottom: 15px;
+}
+#pg_reg .subhead {
+	background: url("../images/txt_contact.jpg") no-repeat;
+}
