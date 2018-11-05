@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Club of the Isle</title>
+<link href="admin.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="clearFix" id="container">
+  	<div id="nav">
+	  <span id="subhead">Contact Administration</span>
+	    <ul>
+	  	<li><a href="contact_list.asp" class="nav">Contact List</a></li>
+		<li><a href="../../register.htm" class="nav" target="_blank">Add Contact</a></li>
+		<li><a href="contact_export.asp" class="nav">Export Contacts</a></li>
+		<li><a href="reports.asp" class="nav">Reports</a></li>
+		<li><a href="../login/logout.asp" class="nav">Logout</a></li>
+	  </ul>
+  	</div>
+	<div id="newContent">
+<div id="regForm">
+<form name="form1" method="post" action="create_edit_process.asp?mode=edit&source=admin" onSubmit="return Validate();">
+	  <table width="500" align="center" border="0" cellpadding="3" cellspacing="0">
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>First Name:</td>
+          <td align="left"><input name="first_name" type="text" id="first_name" maxlength="40" style="width: 160px;" value="<% = rsSQL("First_Name") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>Last Name:</td>
+          <td align="left"><input name="last_name" type="text" id="last_name" maxlength="40" style="width: 160px;" value="<% = rsSQL("Last_Name") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>Street Address:</td>
+          <td align="left"><input name="address" type="text" id="address" maxlength="40" style="width: 300px;" value="<% = rsSQL("Address1") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left">&nbsp;</td>
+          <td align="left"><input name="address2" type="text" id="address2" maxlength="40" style="width: 300px;" value="<% = rsSQL("Address2") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>City:</td>
+          <td align="left"><input name="city" type="text" id="city" maxlength="40" style="width: 160px;" value="<% = rsSQL("City") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>State / Province:</td>
+          <td align="left"><select name="state" id="state">
+              <option value="" selected="selected">Select a State</option>
+              <option value="AL" <% = Selected(rsSQL("State"), "AL") %>>AL</option>
+              <option value="AK" <% = Selected(rsSQL("State"), "AK") %>>AK</option>
+              <option value="AZ" <% = Selected(rsSQL("State"), "AZ") %>>AZ</option>
+              <option value="AR" <% = Selected(rsSQL("State"), "AR") %>>AR</option>
+              <option value="CA" <% = Selected(rsSQL("State"), "CA") %>>CA</option>
+              <option value="CO" <% = Selected(rsSQL("State"), "CO") %>>CO</option>
+              <option value="CT" <% = Selected(rsSQL("State"), "CT") %>>CT</option>
+              <option value="DE" <% = Selected(rsSQL("State"), "DE") %>>DE</option>
+              <option value="DC" <% = Selected(rsSQL("State"), "DC") %>>DC</option>
+              <option value="FL" <% = Selected(rsSQL("State"), "FL") %>>FL</option>
+              <option value="GA" <% = Selected(rsSQL("State"), "GA") %>>GA</option>
+              <option value="HI" <% = Selected(rsSQL("State"), "HI") %>>HI</option>
+              <option value="ID" <% = Selected(rsSQL("State"), "ID") %>>ID</option>
+              <option value="IL" <% = Selected(rsSQL("State"), "IL") %>>IL</option>
+              <option value="IN" <% = Selected(rsSQL("State"), "IN") %>>IN</option>
+              <option value="IA" <% = Selected(rsSQL("State"), "IA") %>>IA</option>
+              <option value="KS" <% = Selected(rsSQL("State"), "KS") %>>KS</option>
+              <option value="KY" <% = Selected(rsSQL("State"), "KY") %>>KY</option>
+              <option value="LA" <% = Selected(rsSQL("State"), "LA") %>>LA</option>
+              <option value="ME" <% = Selected(rsSQL("State"), "ME") %>>ME</option>
+              <option value="MD" <% = Selected(rsSQL("State"), "MD") %>>MD</option>
+              <option value="MA" <% = Selected(rsSQL("State"), "MA") %>>MA</option>
+              <option value="MI" <% = Selected(rsSQL("State"), "MI") %>>MI</option>
+              <option value="MN" <% = Selected(rsSQL("State"), "MN") %>>MN</option>
+              <option value="MS" <% = Selected(rsSQL("State"), "MS") %>>MS</option>
+              <option value="MO" <% = Selected(rsSQL("State"), "MO") %>>MO</option>
+              <option value="MT" <% = Selected(rsSQL("State"), "MT") %>>MT</option>
+              <option value="NE" <% = Selected(rsSQL("State"), "NE") %>>NE</option>
+              <option value="NV" <% = Selected(rsSQL("State"), "NV") %>>NV</option>
+              <option value="NH" <% = Selected(rsSQL("State"), "NH") %>>NH</option>
+              <option value="NJ" <% = Selected(rsSQL("State"), "NJ") %>>NJ</option>
+              <option value="NY" <% = Selected(rsSQL("State"), "NY") %>>NY</option>
+              <option value="NC" <% = Selected(rsSQL("State"), "ND") %>>NC</option>
+              <option value="ND" <% = Selected(rsSQL("State"), "ND") %>>ND</option>
+              <option value="OH" <% = Selected(rsSQL("State"), "OH") %>>OH</option>
+              <option value="OK" <% = Selected(rsSQL("State"), "OK") %>>OK</option>
+              <option value="OR" <% = Selected(rsSQL("State"), "OR") %>>OR</option>
+              <option value="PA" <% = Selected(rsSQL("State"), "PA") %>>PA</option>
+              <option value="RI" <% = Selected(rsSQL("State"), "RI") %>>RI</option>
+              <option value="SC" <% = Selected(rsSQL("State"), "SC") %>>SC</option>
+              <option value="SD" <% = Selected(rsSQL("State"), "SD") %>>SD</option>
+              <option value="TN" <% = Selected(rsSQL("State"), "TN") %>>TN</option>
+              <option value="TX" <% = Selected(rsSQL("State"), "TX") %>>TX</option>
+              <option value="UT" <% = Selected(rsSQL("State"), "UT") %>>UT</option>
+              <option value="VT" <% = Selected(rsSQL("State"), "VT") %>>VT</option>
+              <option value="VA" <% = Selected(rsSQL("State"), "VA") %>>VA</option>
+              <option value="WA" <% = Selected(rsSQL("State"), "WA") %>>WA</option>
+              <option value="WV" <% = Selected(rsSQL("State"), "WV") %>>WV</option>
+              <option value="WI" <% = Selected(rsSQL("State"), "WI") %>>WI</option>
+              <option value="WY" <% = Selected(rsSQL("State"), "WY") %>>WY</option>
+            </select>          </td>
+        </tr>
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>Zip:</td>
+          <td align="left"><input name="zip" type="text" id="zip" maxlength="40" style="width: 100px;" value="<% = rsSQL("Zip") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>Email Address:</td>
+          <td align="left"><input name="email" type="text" id="email" maxlength="100" style="width: 200px;" value="<% = rsSQL("Email") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span><span class="required">*</span></span>Phone:</td>
+          <td align="left"><input name="phone" type="text" id="phone" maxlength="40" style="width: 200px;" value="<% = rsSQL("Day_Phone") %>" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><span>Are you working with a Real Estate Agent?</span>
+              <select name="reagent" id="reagent" onchange="changeRealtor()">
+                <option value="No" <% = Selected(False,rsSQL("With_Agent")) %>>No</option>
+                <option value="Yes" <% = Selected(True,rsSQL("With_Agent")) %>>Yes</option>
+            </select></td>
+        </tr>
+        <tr>
+          <td align="left"><span id="reaName" name="reaName"></span>Agent Name:</td>
+          <td align="left"><input name="agent_name" id="agent_name" type="text" maxlength="60" style="width: 150px;" value="<% = rsSQL("Agent_Name") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span id="reaCompany" name="reaCompany"></span>Agent Company:</td>
+          <td align="left"><input name="agent_company" id="agent_company" type="text" maxlength="60" style="width: 150px;" value="<% = rsSQL("Agent_Company") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span id="reaCity"></span>Agent City: </td>
+          <td align="left"><input name="agent_city" id="agent_city" type="text" maxlength="60" style="width: 150px;" value="<% = rsSQL("Agent_City") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span id="reaPhone" name="reaPhone"></span>Agent Phone:</td>
+          <td align="left"><input name="agent_phone" id="agent_phone" type="text" maxlength="60" style="width: 150px;" value="<% = rsSQL("Agent_Phone") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left"><span id="reaEmail" name="reaEmail"></span>Agent Email:</td>
+          <td align="left"><input name="agent_email" id="agent_email" type="text" maxlength="60" style="width: 200px;" value="<% = rsSQL("Agent_Email") %>" /></td>
+        </tr>
+        <tr>
+          <td align="left" valign="baseline">Comments: </td>
+          <td align="left" valign="baseline"><textarea name="comments2" cols="150" rows="3" id="comments2" style="width: 200px;"><% = rsSQL("Comments") %></textarea></td>
+        </tr>
+        <tr>
+          <td colspan="3" height="50" align="center">
+		  <input type="hidden" name="comments" />
+		  <input type="hidden" name="contact_id" value="<% = Request.QueryString("id") %>" />
+		  <input name="Submit" type="submit" value="Submit" />&nbsp;&nbsp;&nbsp;&nbsp;<input name="Reset" type="reset" />&nbsp;&nbsp;&nbsp;&nbsp;<span><span class="required">*</span>Required Fields</span></td>
+        </tr>
+      </table>
+	  </form>
+	</div>
+  </div>
+</div>
+</body>
+</html>

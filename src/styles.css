@@ -12,13 +12,24 @@ md-card {
     text-align: left;
 }
 
-md-toolbar-row {
-    justify-content: space-between;
-}
-
 md-tab-group {
     padding: 2em auto;
     text-align: center;
+}
+
+md-grid-tile {
+    background: lightblue;
+}
+
+md-panel-title {
+    font: bold 24px Roboto, "Helvetica Neue", sans-serif;
+    padding: 1em 0em;
+}
+
+md-accordion,
+md-expansion-panel,
+md-expansion-panel-header {
+    background-color: rgba(92, 92, 92, 0.17);
 }
 
 .pageContent {
@@ -26,24 +37,11 @@ md-tab-group {
     background: lightgray;
 }
 
-md-grid-tile {
-    background: lightblue;
-}
-
-button.mat-raised-button {
-    background-color: azure;
-}
-
 .done {
     position: fixed;
     bottom: 20px;
     right: 20px;
     color: white;
-}
-
-.skill-card,
-.about-card {
-    width: 500px;
 }
 
 .about-header-image {
@@ -68,11 +66,68 @@ button.mat-raised-button {
     height: 100px;
 }
 
-.contact-links {
-    padding: 1em;
+.workLogo {
+    width: 72px;
+    /* height: 80px; */
+    float: right;
+    margin: 4px 4px 10px 10px;
+    outline: 1px solid rgba(66, 66, 66, 0.13);
+    outline-offset: 2px;
+    clear: left;
 }
 
-.mat-button-wrapper.img {
-    height: 40px;
-    width: 40px;
+.workCompany {
+    font: bold 18px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 6px;
+}
+
+.workTitle {
+    font: bold 15px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 4px;
+}
+
+.workPeriod {
+    font: 15px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 4px;
+}
+
+.workLocation {
+    font: 15px Roboto, "Helvetica Neue", sans-serif;
+    margin-bottom: 12px;
+}
+
+.contactLinks .mat-button {
+    text-align: left;
+    width: 100%;
+    color: rgba(0, 0, 0, .87);
+    background-color: rgba(216, 216, 216, 0.2);
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.portfolioThumbnail {
+    margin: 10px;
+    outline: 1px solid rgba(66, 66, 66, 0.13);
+    outline-offset: 2px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 400px) {
+    md-card {
+        max-width: 100%;
+        margin: 0.25em auto;
+        padding: 0em;
+        text-align: left;
+    }
+    .pageContent {
+        padding: 0.25em;
+        background: lightgray;
+    }
+    .mat-card {
+        padding: 0px 16px;
+    }
 }

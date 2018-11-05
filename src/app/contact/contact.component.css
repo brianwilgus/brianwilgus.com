@@ -1,0 +1,19 @@
+.contact-links {
+    margin: 0.25em;
+}
+
+.mat-button-wrapper.img {
+    height: 40px;
+    width: 40px;
+    margin-right: 1em;
+}
+
+.img-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 0.25em;
+}
+
+.contact-card {
+    width: 300px;
+}
